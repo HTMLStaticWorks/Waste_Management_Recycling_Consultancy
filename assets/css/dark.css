@@ -1,0 +1,138 @@
+/* Dark Mode Overrides */
+body.dark-theme {
+  --primary: #15803D; /* Forest Green base adjusted for contrast */
+  --primary-rgb: 21, 128, 61;
+  --secondary: #94A3B8;
+  --secondary-rgb: 148, 163, 184;
+  --accent: #22C55E; /* Vibrant Eco Green */
+  --accent-rgb: 34, 197, 94;
+  --highlight: #38BDF8; /* Sustainability Blue */
+  --highlight-rgb: 56, 189, 248;
+  --background: #020617; /* Darkest Slate */
+  --surface: #0B1120; /* Deep Card Slate */
+  --surface-rgb: 11, 17, 32;
+  --text-primary: #E2E8F0; /* Soft white/gray */
+  --text-secondary: #94A3B8;
+  --border-color: #1E293B;
+  
+  --glass-bg: rgba(11, 17, 32, 0.75);
+  --glass-border: rgba(30, 41, 59, 0.8);
+  --glass-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.4);
+  
+  --shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.4);
+}
+
+/* Specific Dark Mode Enhancements */
+body.dark-theme {
+  background-color: var(--background);
+  color: var(--text-primary);
+}
+
+body.dark-theme .navbar-custom {
+  background: rgba(2, 6, 23, 0.85);
+  border-bottom-color: var(--border-color);
+}
+
+body.dark-theme .navbar-custom.scrolled {
+  background: var(--surface);
+}
+
+body.dark-theme .logo-link,
+body.dark-theme .footer-logo {
+  color: var(--accent);
+}
+
+body.dark-theme .theme-btn {
+  border-color: var(--border-color);
+  color: var(--text-secondary);
+}
+
+body.dark-theme .theme-btn:hover {
+  background-color: var(--border-color);
+  color: var(--accent);
+}
+
+body.dark-theme .dropdown-custom {
+  background: var(--surface);
+  border-color: var(--border-color);
+}
+
+body.dark-theme .dropdown-link:hover {
+  background-color: #1E293B;
+  color: var(--accent);
+}
+
+@media (max-width: 1024px) {
+  body.dark-theme .nav-menu {
+    background-color: var(--surface);
+  }
+}
+
+body.dark-theme .hero-shape-1 {
+  background-color: var(--accent);
+  opacity: 0.12;
+}
+
+body.dark-theme .hero-shape-2 {
+  background-color: var(--highlight);
+  opacity: 0.12;
+}
+
+body.dark-theme .price-card.featured {
+  border-color: var(--accent);
+  box-shadow: 0 20px 40px rgba(34, 197, 94, 0.15);
+}
+
+body.dark-theme .calculator-results {
+  background-color: #020617;
+}
+
+/* Charts adjustment for dark mode */
+body.dark-theme canvas {
+  filter: brightness(1.1);
+}
+
+/* Form input adjustment */
+body.dark-theme .form-control-eco {
+  background-color: #0B1120;
+  border-color: #1E293B;
+  color: var(--text-primary);
+}
+
+body.dark-theme .form-control-eco:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px rgba(34, 197, 94, 0.2);
+}
+
+/* SVG Chart lines and grid lines in dashboard drawer */
+body.dark-theme .dashboard-drawer {
+  background-color: var(--background);
+}
+
+body.dark-theme .dashboard-header {
+  background-color: var(--surface);
+}
+
+body.dark-theme .audit-list-item {
+  border-color: var(--border-color);
+}
+
+/* Scrollbars for Dark Mode */
+body.dark-theme ::-webkit-scrollbar {
+  width: 10px;
+}
+body.dark-theme ::-webkit-scrollbar-track {
+  background: var(--background);
+}
+body.dark-theme ::-webkit-scrollbar-thumb {
+  background: var(--border-color);
+  border-radius: 5px;
+}
+body.dark-theme ::-webkit-scrollbar-thumb:hover {
+  background: var(--accent);
+}
+
+/* Google Maps Dark Mode filter */
+body.dark-theme iframe {
+  filter: invert(90%) hue-rotate(180deg) grayscale(0.5) contrast(1.2) !important;
+}
