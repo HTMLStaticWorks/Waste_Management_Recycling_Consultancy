@@ -62,6 +62,11 @@ body.dark-theme .dropdown-link:hover {
   color: var(--accent);
 }
 
+body.dark-theme .dropdown-link.active {
+  background-color: #1E293B;
+  color: var(--accent);
+}
+
 @media (max-width: 1024px) {
   body.dark-theme .nav-menu {
     background-color: var(--surface);

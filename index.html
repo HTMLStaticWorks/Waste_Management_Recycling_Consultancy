@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>EcoAudit - Zero-Waste & ESG Sustainability Consultancy</title>
-  <meta name="description" content="EcoAudit provides zero-waste consulting, facility waste audits, recycling strategies, and corporate ESG compliance advisory for commercial and industrial organizations.">
-  <meta name="keywords" content="zero waste consulting, waste audit, recycling strategies, ESG compliance, sustainability consultancy">
-  
+  <meta name="description"
+    content="EcoAudit provides zero-waste consulting, facility waste audits, recycling strategies, and corporate ESG compliance advisory for commercial and industrial organizations.">
+  <meta name="keywords"
+    content="zero waste consulting, waste audit, recycling strategies, ESG compliance, sustainability consultancy">
+
   <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
 
   <!-- CSS Stylesheets -->
@@ -15,6 +18,7 @@
   <link rel="stylesheet" href="assets/css/dark.css">
   <link rel="stylesheet" href="assets/css/animations.css">
 </head>
+
 <body>
   <a href="#main-content" class="skip-link">Skip to main content</a>
 
@@ -22,23 +26,28 @@
   <header class="navbar-custom">
     <div class="container nav-container">
       <a href="index.html" class="logo-link" id="navLogo">
-        <svg class="logo-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+        <svg class="logo-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+          stroke-width="2">
+          <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
         </svg>
         <span>EcoAudit</span>
       </a>
 
       <button class="mobile-nav-toggle" aria-label="Toggle menu" aria-expanded="false">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" style="width: 1.5rem; height: 1.5rem;">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
+          style="width: 1.5rem; height: 1.5rem;">
           <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
         </svg>
       </button>
 
       <nav class="nav-menu" id="navMenu">
+        <button class="mobile-close-btn" aria-label="Close menu">
+          <i data-lucide="x"></i>
+        </button>
         <div class="nav-item">
-          <a href="index.html" class="nav-link-custom active">Home</a>
+          <a href="index.html" class="nav-link-custom active">Home <i data-lucide="chevron-down"></i></a>
           <div class="dropdown-custom">
-            <a href="index.html" class="dropdown-link">Corporate Consulting</a>
+            <a href="index.html" class="dropdown-link active">Corporate Consulting</a>
             <a href="home-2.html" class="dropdown-link">Industrial & Logistics</a>
           </div>
         </div>
@@ -59,7 +68,8 @@
         </div>
         <!-- Mobile controls inside hamburger menu -->
         <div class="mobile-nav-controls">
-          <button class="theme-btn rtl-toggle-btn" aria-label="Toggle RTL Layout" style="font-size: 0.75rem; font-weight: 500; font-family: var(--font-headings);">RTL</button>
+          <button class="theme-btn rtl-toggle-btn" aria-label="Toggle RTL Layout"
+            style="font-size: 0.75rem; font-weight: 500; font-family: var(--font-headings);">RTL</button>
           <button class="theme-btn" aria-label="Toggle dark theme">
             <!-- SVG injected via theme-toggle.js -->
           </button>
@@ -68,11 +78,13 @@
       </nav>
 
       <div class="nav-controls">
-        <button class="theme-btn rtl-toggle-btn" id="rtlToggleBtn" aria-label="Toggle RTL Layout" style="font-size: 0.75rem; font-weight: 500; font-family: var(--font-headings);">RTL</button>
+        <button class="theme-btn rtl-toggle-btn" id="rtlToggleBtn" aria-label="Toggle RTL Layout"
+          style="font-size: 0.75rem; font-weight: 500; font-family: var(--font-headings);">RTL</button>
         <button class="theme-btn" aria-label="Toggle dark theme">
           <!-- SVG injected via theme-toggle.js -->
         </button>
-        <a href="signup.html" class="btn-eco btn-eco-primary d-none d-sm-inline-flex" style="padding: 0.5rem 1.25rem;">Signup</a>
+        <a href="signup.html" class="btn-eco btn-eco-primary d-none d-sm-inline-flex"
+          style="padding: 0.5rem 1.25rem;">Signup</a>
       </div>
     </div>
   </header>
@@ -90,23 +102,27 @@
             <div class="badge-eco">
               <span class="live-indicator"></span> ESG Compliance & Circular Economy
             </div>
-            <h1 class="display-large mb-4 gsap-reveal-hero">Driving Commercial Sustainability with Data-Backed Audits</h1>
-            <p class="text-lead mb-4 gsap-reveal-hero">We engineer zero-waste solutions, audit commercial facilities, and implement circular logistics strategies to align enterprise operations with strict ESG mandates.</p>
+            <h1 class="display-large mb-4 gsap-reveal-hero">Driving Commercial Sustainability with Data-Backed Audits
+            </h1>
+            <p class="text-lead mb-4 gsap-reveal-hero">We engineer zero-waste solutions, audit commercial facilities,
+              and implement circular logistics strategies to align enterprise operations with strict ESG mandates.</p>
             <div class="d-flex flex-wrap gap-3 gsap-reveal-hero">
               <a href="services.html" class="btn-eco btn-eco-primary">Explore Services</a>
               <a href="waste-audits.html" class="btn-eco btn-eco-secondary">Audit Estimator</a>
             </div>
-            
+
             <div class="row mt-5 pt-3 gsap-reveal-hero g-3">
-              <div class="col-4">
-                <span class="stats-number text-gradient" style="font-size: 2.25rem;"><span class="counter-val" data-target="92" data-speed="80">0</span>%</span>
+              <div class="col-12 col-sm-4">
+                <span class="stats-number text-gradient" style="font-size: 2.25rem;"><span class="counter-val"
+                    data-target="92" data-speed="80">0</span>%</span>
                 <span class="stats-label" style="font-size: 0.85rem;">Avg Diversion Rate</span>
               </div>
-              <div class="col-4">
-                <span class="stats-number text-gradient" style="font-size: 2.25rem;"><span class="counter-val" data-target="24" data-speed="80">0</span>k+</span>
+              <div class="col-12 col-sm-4">
+                <span class="stats-number text-gradient" style="font-size: 2.25rem;"><span class="counter-val"
+                    data-target="24" data-speed="80">0</span>k+</span>
                 <span class="stats-label" style="font-size: 0.85rem;">Tons Diverted</span>
               </div>
-              <div class="col-4">
+              <div class="col-12 col-sm-4">
                 <span class="stats-number text-gradient" style="font-size: 2.25rem;">$12M+</span>
                 <span class="stats-label" style="font-size: 0.85rem;">Landfill Cost Saved</span>
               </div>
@@ -114,10 +130,12 @@
           </div>
           <div class="col-lg-6">
             <div class="hero-image-container">
-              <img src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=800&q=80" alt="Corporate environmental planning meeting" class="hero-img" loading="lazy">
+              <img src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=800&q=80"
+                alt="Corporate environmental planning meeting" class="hero-img" loading="lazy">
               <div class="glass-panel p-4 hero-metric-overlay">
                 <h4 class="h-medium text-gradient mb-1">TRUE Zero Waste</h4>
-                <p class="mb-0" style="font-size: 0.85rem;">We prepare corporations, factories, and schools for official Zero-Waste certification tracks.</p>
+                <p class="mb-0" style="font-size: 0.85rem;">We prepare corporations, factories, and schools for official
+                  Zero-Waste certification tracks.</p>
               </div>
             </div>
           </div>
@@ -132,38 +150,46 @@
           <div class="col-lg-8">
             <div class="badge-eco badge-eco-blue">Consulting Verticals</div>
             <h2 class="display-medium mb-3">Zero-Waste Operational Consulting</h2>
-            <p class="text-lead">Structured advisory services designed to map facility lifecycle flows, minimize overhead, and enforce circular compliance standards.</p>
+            <p class="text-lead">Structured advisory services designed to map facility lifecycle flows, minimize
+              overhead, and enforce circular compliance standards.</p>
           </div>
         </div>
-        
-        <div class="row g-4">
-          <div class="col-md-4">
+
+        <div class="row g-4 justify-content-center">
+          <div class="col-xl-4 col-md-6">
             <div class="glass-panel service-card hover-lift">
-              <div class="service-icon-box">
-                <i data-lucide="clipboard-check"></i>
+              <div class="service-image-box">
+                <img src="https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?auto=format&fit=crop&w=600&q=80"
+                  alt="Facility Waste Audits">
               </div>
               <h3>Facility Waste Audits</h3>
-              <p>Physical sorting, characterization, and reporting showing trash volumes, composition, and actionable diversion pathways.</p>
+              <p>Physical sorting, characterization, and reporting showing trash volumes, composition, and actionable
+                diversion pathways.</p>
               <a href="waste-audits.html" class="btn-eco-link">Learn Methodology <i data-lucide="arrow-right"></i></a>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-xl-4 col-md-6">
             <div class="glass-panel service-card hover-lift">
-              <div class="service-icon-box">
-                <i data-lucide="award"></i>
+              <div class="service-image-box">
+                <img src="https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=600&q=80"
+                  alt="Zero-Waste Certifications">
               </div>
               <h3>Zero-Waste Certifications</h3>
-              <p>Step-by-step guidance to achieve official TRUE / Zero Waste Alliance facility ratings and certification frameworks.</p>
-              <a href="zero-waste-certification.html" class="btn-eco-link">Certification Details <i data-lucide="arrow-right"></i></a>
+              <p>Step-by-step guidance to achieve official TRUE / Zero Waste Alliance facility ratings and certification
+                frameworks.</p>
+              <a href="zero-waste-certification.html" class="btn-eco-link">Certification Details <i
+                  data-lucide="arrow-right"></i></a>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-xl-4 col-md-6">
             <div class="glass-panel service-card hover-lift">
-              <div class="service-icon-box">
-                <i data-lucide="refresh-cw"></i>
+              <div class="service-image-box">
+                <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=600&q=80"
+                  alt="Circular Logistics">
               </div>
               <h3>Circular Logistics</h3>
-              <p>Integrating supply chain operations into high-efficiency closed-loop networks to ensure circular lifecycle patterns.</p>
+              <p>Integrating supply chain operations into high-efficiency closed-loop networks to ensure circular
+                lifecycle patterns.</p>
               <a href="service-details.html" class="btn-eco-link">Explore Strategy <i data-lucide="arrow-right"></i></a>
             </div>
           </div>
@@ -177,8 +203,10 @@
         <div class="row align-items-center g-5">
           <div class="col-lg-6">
             <h2 class="display-medium mb-4">Driving Commercial-Grade Circular Performance</h2>
-            <p class="text-lead">We operate at the intersection of regulatory compliance and manufacturing efficiency, delivering ESG metrics that corporate boards trust.</p>
-            <p>From carbon offsets to material stream purity thresholds, our team implements scalable strategies designed to eliminate municipal collection reliance and secure commercial credits.</p>
+            <p class="text-lead">We operate at the intersection of regulatory compliance and manufacturing efficiency,
+              delivering ESG metrics that corporate boards trust.</p>
+            <p>From carbon offsets to material stream purity thresholds, our team implements scalable strategies
+              designed to eliminate municipal collection reliance and secure commercial credits.</p>
             <div class="mt-4">
               <a href="contact.html" class="btn-eco btn-eco-accent">Request Consultation</a>
             </div>
@@ -187,26 +215,30 @@
             <div class="row g-4">
               <div class="col-sm-6">
                 <div class="glass-panel p-4 text-center">
-                  <span class="stats-number"><span class="counter-val" data-target="98" data-speed="100">0</span>%</span>
+                  <span class="stats-number"><span class="counter-val" data-target="98"
+                      data-speed="100">0</span>%</span>
                   <span class="stats-label">Diversion Rate Peak</span>
                 </div>
               </div>
               <div class="col-sm-6">
                 <div class="glass-panel p-4 text-center">
-                  <span class="stats-number"><span class="counter-val" data-target="350" data-speed="100">0</span>+</span>
+                  <span class="stats-number"><span class="counter-val" data-target="350"
+                      data-speed="100">0</span>+</span>
                   <span class="stats-label">Audited Facilities</span>
                 </div>
               </div>
               <div class="col-sm-6">
                 <div class="glass-panel p-4 text-center">
-                  <span class="stats-number"><span class="counter-val" data-target="42" data-speed="100">0</span>k</span>
+                  <span class="stats-number"><span class="counter-val" data-target="42"
+                      data-speed="100">0</span>k</span>
                   <span class="stats-label">CO2 Tons Mitigated</span>
                 </div>
               </div>
               <div class="col-sm-6">
                 <div class="glass-panel p-4 text-center">
-                  <span class="stats-number"><span class="counter-val" data-target="15" data-speed="100">0</span>m</span>
-                  <span class="stats-label">Saved in Client Expenses</span>
+                  <span class="stats-number"><span class="counter-val" data-target="15"
+                      data-speed="100">0</span>m</span>
+                  <span class="stats-label"> Client Expenses</span>
                 </div>
               </div>
             </div>
@@ -232,14 +264,16 @@
           <div class="col-md-6">
             <div class="case-card">
               <div class="case-img-wrap">
-                <img src="https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?auto=format&fit=crop&w=800&q=80" alt="Industrial sorting machinery" loading="lazy">
+                <img src="https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?auto=format&fit=crop&w=800&q=80"
+                  alt="Industrial sorting machinery" loading="lazy">
                 <div class="case-overlay">
                   <div class="badge-eco badge-eco-blue">Manufacturing</div>
                 </div>
               </div>
               <div class="case-body">
-                <h3>Global Automotive Supplier Zero-Waste Track</h3>
-                <p>Establishing automated optical packaging sorting to extract premium materials and avoid local municipal tipping surcharges.</p>
+                <h3>Automotive Supplier Zero-Waste Track</h3>
+                <p>Establishing automated optical packaging sorting to extract premium materials and avoid local
+                  municipal tipping surcharges.</p>
                 <div class="case-metrics">
                   <div class="metric-item">
                     <span class="metric-val">96.4%</span>
@@ -253,18 +287,20 @@
               </div>
             </div>
           </div>
-          
+
           <div class="col-md-6">
             <div class="case-card">
               <div class="case-img-wrap">
-                <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=800&q=80" alt="Glass architecture office building" loading="lazy">
+                <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=800&q=80"
+                  alt="Glass architecture office building" loading="lazy">
                 <div class="case-overlay">
                   <div class="badge-eco badge-eco-blue">Corporate</div>
                 </div>
               </div>
               <div class="case-body">
                 <h3>Metro Financial Center Waste Audit</h3>
-                <p>Implementing tenant organic collection structures and centralized logistics to secure state green credits.</p>
+                <p>Implementing tenant organic collection structures and centralized logistics to secure state green
+                  credits.</p>
                 <div class="case-metrics">
                   <div class="metric-item">
                     <span class="metric-val">88.2%</span>
@@ -289,34 +325,45 @@
           <div class="col-lg-8">
             <span class="badge-eco">Testimonials</span>
             <h2 class="display-medium mt-2">What Our Clients Say</h2>
-            <p class="text-lead mt-3">We partner with leading corporations to transform their waste streams and exceed environmental compliance metrics.</p>
+            <p class="text-lead mt-3">We partner with leading corporations to transform their waste streams and exceed
+              environmental compliance metrics.</p>
           </div>
         </div>
         <div class="row g-4">
           <div class="col-lg-6">
             <div class="glass-panel p-4 h-100 d-flex flex-column justify-content-between">
-              <p class="text-lead" style="font-style: italic;">"EcoAudit's comprehensive waste mapping completely changed our operations. We achieved a 96% diversion rate at our primary automotive supplier plant and saved over $180k in tipping fees within the first year."</p>
+              <p class="text-lead" style="font-style: italic;">"EcoAudit's comprehensive waste mapping completely
+                changed our operations. We achieved a 96% diversion rate at our primary automotive supplier plant and
+                saved over $180k in tipping fees within the first year."</p>
               <div class="d-flex align-items-center gap-3 mt-4">
-                <div style="background-color: var(--primary); color: white; width: 3rem; height: 3rem; border-radius: 50%; font-weight: bold; font-family: var(--font-headings);" class="d-flex align-items-center justify-content-center">
+                <div
+                  style="background-color: var(--primary); color: white; width: 3rem; height: 3rem; border-radius: 50%; font-weight: bold; font-family: var(--font-headings);"
+                  class="d-flex align-items-center justify-content-center">
                   <span>MS</span>
                 </div>
                 <div>
                   <h4 class="h-medium mb-0" style="font-size: 1.1rem;">Marcus Vance</h4>
-                  <span style="font-size: 0.85rem; color: var(--accent); text-transform: uppercase;">VP of Operations, Global Auto Parts</span>
+                  <span style="font-size: 0.85rem; color: var(--accent); text-transform: uppercase;">VP of Operations,
+                    Global Auto Parts</span>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-lg-6">
             <div class="glass-panel p-4 h-100 d-flex flex-column justify-content-between">
-              <p class="text-lead" style="font-style: italic;">"The Scope 3 waste emission documentation provided by the EcoAudit team was essential for our SEC climate disclosures. Their facility sorting guidelines made tenant compliance simple and effective."</p>
+              <p class="text-lead" style="font-style: italic;">"The Scope 3 waste emission documentation provided by the
+                EcoAudit team was essential for our SEC climate disclosures. Their facility sorting guidelines made
+                tenant compliance simple and effective."</p>
               <div class="d-flex align-items-center gap-3 mt-4">
-                <div style="background-color: var(--accent); color: white; width: 3rem; height: 3rem; border-radius: 50%; font-weight: bold; font-family: var(--font-headings);" class="d-flex align-items-center justify-content-center">
+                <div
+                  style="background-color: var(--accent); color: white; width: 3rem; height: 3rem; border-radius: 50%; font-weight: bold; font-family: var(--font-headings);"
+                  class="d-flex align-items-center justify-content-center">
                   <span>HL</span>
                 </div>
                 <div>
                   <h4 class="h-medium mb-0" style="font-size: 1.1rem;">Helena Rostova</h4>
-                  <span style="font-size: 0.85rem; color: var(--accent); text-transform: uppercase;">Director of ESG Compliance, Metro Tower REIT</span>
+                  <span style="font-size: 0.85rem; color: var(--accent); text-transform: uppercase;">Director of ESG
+                    Compliance, Metro Tower</span>
                 </div>
               </div>
             </div>
@@ -343,7 +390,10 @@
                 <i data-lucide="chevron-down" class="faq-icon"></i>
               </div>
               <div class="faq-body">
-                <p>Our physical waste audits involve multi-day sorting and weighing of material outflows at your facility. We isolate recyclables, organics, hazard items, and general landfill waste, mapping streams back to origin processes. This produces a clear visual metric dashboard of sorting efficiencies and landfill reductions.</p>
+                <p>Our physical waste audits involve multi-day sorting and weighing of material outflows at your
+                  facility. We isolate recyclables, organics, hazard items, and general landfill waste, mapping streams
+                  back to origin processes. This produces a clear visual metric dashboard of sorting efficiencies and
+                  landfill reductions.</p>
               </div>
             </div>
 
@@ -353,7 +403,10 @@
                 <i data-lucide="chevron-down" class="faq-icon"></i>
               </div>
               <div class="faq-body">
-                <p>TRUE certification verifies that your facility diverts over 90% of waste from landfills, incinerators, and water ecosystems. It delivers massive utility and collection savings, improves investor scorecards for ESG mandates, and strengthens your brand reputation as a certified sustainable operator.</p>
+                <p>TRUE certification verifies that your facility diverts over 90% of waste from landfills,
+                  incinerators, and water ecosystems. It delivers massive utility and collection savings, improves
+                  investor scorecards for ESG mandates, and strengthens your brand reputation as a certified sustainable
+                  operator.</p>
               </div>
             </div>
 
@@ -363,7 +416,9 @@
                 <i data-lucide="chevron-down" class="faq-icon"></i>
               </div>
               <div class="faq-body">
-                <p>Yes. We specialize in circular packaging design, reverse supply chains, and establishing secondary materials brokerage agreements, ensuring that packaging and production remnants feed back into the value chain as raw inputs.</p>
+                <p>Yes. We specialize in circular packaging design, reverse supply chains, and establishing secondary
+                  materials brokerage agreements, ensuring that packaging and production remnants feed back into the
+                  value chain as raw inputs.</p>
               </div>
             </div>
           </div>
@@ -378,28 +433,52 @@
       <div class="row g-5">
         <div class="col-lg-3 col-md-6">
           <div class="footer-logo">
-            <svg class="footer-logo-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+            <svg class="footer-logo-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+              stroke="currentColor" stroke-width="2">
+              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
             </svg>
             <span>EcoAudit</span>
           </div>
-          <p>Commercial sustainability architects translating corporate waste metrics into profitable circular supply chains and verified ESG scorecard excellence.</p>
+          <p>Commercial sustainability architects translating corporate waste metrics into profitable circular supply
+            chains and verified ESG scorecard excellence.</p>
           <div class="d-flex align-items-center gap-3 mt-3 footer-social-links">
             <a href="https://linkedin.com" target="_blank" class="social-icon-link-footer" aria-label="LinkedIn">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-linkedin" style="width: 0.95rem; height: 0.95rem;"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-linkedin"
+                style="width: 0.95rem; height: 0.95rem;">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                <rect x="2" y="9" width="4" height="12"></rect>
+                <circle cx="4" cy="4" r="2"></circle>
+              </svg>
             </a>
             <a href="https://twitter.com" target="_blank" class="social-icon-link-footer" aria-label="Twitter">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-twitter" style="width: 0.95rem; height: 0.95rem;"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-twitter"
+                style="width: 0.95rem; height: 0.95rem;">
+                <path
+                  d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z">
+                </path>
+              </svg>
             </a>
             <a href="https://facebook.com" target="_blank" class="social-icon-link-footer" aria-label="Facebook">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-facebook" style="width: 0.95rem; height: 0.95rem;"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-facebook"
+                style="width: 0.95rem; height: 0.95rem;">
+                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+              </svg>
             </a>
             <a href="https://instagram.com" target="_blank" class="social-icon-link-footer" aria-label="Instagram">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-instagram" style="width: 0.95rem; height: 0.95rem;"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-instagram"
+                style="width: 0.95rem; height: 0.95rem;">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+              </svg>
             </a>
           </div>
         </div>
-        
+
         <div class="col-lg-3 col-md-6">
           <h4>Consulting Services</h4>
           <ul class="footer-links">
@@ -462,7 +541,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
   <script src="https://unpkg.com/lucide@latest"></script>
-  
+
   <script src="assets/js/theme-toggle.js"></script>
   <script src="assets/js/animations.js"></script>
   <script src="assets/js/main.js"></script>
@@ -473,4 +552,5 @@
     });
   </script>
 </body>
+
 </html>

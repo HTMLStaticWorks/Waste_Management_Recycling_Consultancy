@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initFAQAccordion();
   initWasteCalculator();
   initContactForm();
+  initBackToTop();
 });
 
 /* Sticky Navigation behavior */
@@ -65,6 +66,19 @@ function initMobileNav() {
       `;
     }
   });
+
+  // Close menu via mobile close button
+  const closeMenuBtn = document.querySelector('.mobile-close-btn');
+  if (closeMenuBtn) {
+    closeMenuBtn.addEventListener('click', () => {
+      navMenu.classList.remove('active');
+      toggleBtn.innerHTML = `
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" style="width: 1.5rem; height: 1.5rem;">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      `;
+    });
+  }
 
   // Mobile submenu accordion
   const parentLinks = document.querySelectorAll('.nav-item > .nav-link-custom');
@@ -194,3 +208,35 @@ function initContactForm() {
     });
   }
 }
+
+/* Back To Top Button */
+function initBackToTop() {
+  const btn = document.createElement('button');
+  btn.id = 'backToTop';
+  btn.className = 'back-to-top';
+  btn.setAttribute('aria-label', 'Back to top');
+  btn.innerHTML = `<i data-lucide="arrow-up" style="width: 1.5rem; height: 1.5rem;"></i>`;
+  document.body.appendChild(btn);
+
+  if (window.lucide) {
+    window.lucide.createIcons();
+  }
+
+  const handleScroll = () => {
+    if (window.scrollY > 300) {
+      btn.classList.add('visible');
+    } else {
+      btn.classList.remove('visible');
+    }
+  };
+
+  btn.addEventListener('click', () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  });
+
+  window.addEventListener('scroll', handleScroll);
+}
+
