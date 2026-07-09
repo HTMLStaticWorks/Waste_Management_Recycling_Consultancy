@@ -88,7 +88,7 @@ function initMobileNav() {
     
     if (submenu) {
       link.addEventListener('click', (e) => {
-        if (window.innerWidth <= 992) {
+        if (window.innerWidth <= 1024) {
           e.preventDefault();
           parent.classList.toggle('active');
         }

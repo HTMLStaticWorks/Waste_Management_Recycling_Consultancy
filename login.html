@@ -4,9 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Login - Customer Portal | EcoAudit</title>
+  <title>Login | EcoAudit</title>
   <meta name="description"
-    content="Log in to EcoAudit's client portal to review active facility audits, download compliance PDFs, and view your sustainability dashboard.">
+    content="Log in to your EcoAudit account to access your dashboard, view reports, and manage your services.">
   <meta name="keywords" content="client portal login, waste audit records, sustainability log access">
 
   <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
@@ -48,19 +48,18 @@
           </a>
         </div>
 
-        <h2 class="h-large text-center mb-3">Client Portal Access</h2>
-        <p class="text-center mb-4" style="font-size: 0.9rem;">Review waste audit weights and download ESG certification
-          certificates.</p>
+        <h2 class="h-large text-center mb-3">Welcome Back</h2>
+        <p class="text-center mb-4" style="font-size: 0.9rem;">Please log in to access your secure dashboard.</p>
 
-        <form action="index.html" method="GET" onsubmit="alert('Mock Login Successful. Redirecting to Portal...');">
+        <form action="index.html" method="GET" onsubmit="alert('Mock Login Successful. Redirecting...');">
           <div class="form-group">
-            <label for="loginEmail" class="form-label">Facility Email Address</label>
-            <input type="email" id="loginEmail" class="form-control-eco" placeholder="e.g. facility@company.com"
+            <label for="loginEmail" class="form-label">Email Address</label>
+            <input type="email" id="loginEmail" class="form-control-eco" placeholder="e.g. user@company.com"
               required>
           </div>
 
           <div class="form-group mb-4">
-            <label for="loginPass" class="form-label">Portal Password</label>
+            <label for="loginPass" class="form-label">Password</label>
             <div class="password-input-wrapper">
               <input type="password" id="loginPass" class="form-control-eco" placeholder="Enter secure password"
                 required>
@@ -117,7 +116,7 @@
           </div>
 
           <p class="text-center mb-0" style="font-size: 0.9rem;">
-            New client? <a href="signup.html">Register facility portal</a>
+            Don't have an account? <a href="signup.html">Register here</a>
           </p>
         </form>
       </div>

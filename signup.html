@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sign Up - Register Facility Onboarding | EcoAudit</title>
-  <meta name="description" content="Register your facility for EcoAudit's zero-waste assessment track and access custom compliance guides.">
+  <title>Register | EcoAudit</title>
+  <meta name="description" content="Create an account with EcoAudit to get started with our services and access our compliance guides.">
   <meta name="keywords" content="portal signup, waste audit onboarding, client registration">
   
   <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
@@ -43,31 +43,31 @@
           </a>
         </div>
         
-        <h2 class="h-large text-center mb-3">Onboard Your Facility</h2>
-        <p class="text-center mb-4" style="font-size: 0.9rem;">Initiate baseline sorting tracks and log Scope 3 landfill carbon offsets.</p>
+        <h2 class="h-large text-center mb-3">Create Your Account</h2>
+        <p class="text-center mb-4" style="font-size: 0.9rem;">Please fill in the form below to create your account and get started.</p>
         
-        <form action="login.html" method="GET" onsubmit="alert('Facility Registration Pending. Redirecting to Login...');">
+        <form action="login.html" method="GET" onsubmit="alert('Registration Pending. Redirecting to Login...');">
           <div class="form-group">
-            <label for="compName" class="form-label">Corporate Entity Name</label>
+            <label for="compName" class="form-label">Company / Organization Name</label>
             <input type="text" id="compName" class="form-control-eco" placeholder="e.g. Apex Corp" required>
           </div>
           <div class="form-group">
-            <label for="contactRole" class="form-label">Lead Contact Person</label>
+            <label for="contactRole" class="form-label">Full Name</label>
             <input type="text" id="contactRole" class="form-control-eco" placeholder="e.g. Jane Smith" required>
           </div>
 
           <div class="form-group">
-            <label for="regEmail" class="form-label">Work Email Address</label>
-            <input type="email" id="regEmail" class="form-control-eco" placeholder="e.g. sustainability@company.com" required>
+            <label for="regEmail" class="form-label">Email Address</label>
+            <input type="email" id="regEmail" class="form-control-eco" placeholder="e.g. user@company.com" required>
           </div>
 
           <div class="form-group">
-            <label for="facilitySector" class="form-label">Facility Classification</label>
-            <select id="facilitySector" class="form-control-eco" aria-label="Facility classification select">
-              <option value="industrial">Heavy Manufacturing / Logistics Center</option>
-              <option value="corporate">Commercial Office Campus</option>
-              <option value="hospitality">Hospitality / Resort Complex</option>
-              <option value="educational">Educational Institution / School</option>
+            <label for="facilitySector" class="form-label">Organization Type</label>
+            <select id="facilitySector" class="form-control-eco" aria-label="Organization type select">
+              <option value="industrial">Manufacturing & Logistics</option>
+              <option value="corporate">Corporate & Office</option>
+              <option value="hospitality">Hospitality & Services</option>
+              <option value="educational">Education & Public Sector</option>
             </select>
           </div>
 
@@ -83,10 +83,10 @@
 
           <div class="form-check-group mb-4 d-flex align-items-start gap-2" style="font-size: 0.85rem;">
             <input type="checkbox" id="termsCheck" required class="mt-1">
-            <label for="termsCheck">I certify that I represent the authorized operations officer for this site and accept terms.</label>
+            <label for="termsCheck">I agree to the terms of service and privacy policy.</label>
           </div>
 
-          <button type="submit" class="btn-eco btn-eco-primary w-100 mb-3">Register Facility Track</button>
+          <button type="submit" class="btn-eco btn-eco-primary w-100 mb-3">Register</button>
 
           <!-- Divider -->
           <div class="d-flex align-items-center my-4">
@@ -115,7 +115,7 @@
           </div>
           
           <p class="text-center mb-0" style="font-size: 0.9rem;">
-            Registered already? <a href="login.html">Log in here</a>
+            Already have an account? <a href="login.html">Log in here</a>
           </p>
         </form>
       </div>
