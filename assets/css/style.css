@@ -2040,6 +2040,10 @@ html[dir="rtl"] .back-to-top {
   border-color: var(--surface);
 }
 
+.stepper-content {
+  flex: 1;
+}
+
 .stepper-title {
   font-family: var(--font-headings);
   font-size: 1.125rem;
